@@ -1,4 +1,4 @@
-# 🐾 Superhero Dabase App
+# 🐾 Superhero Database App
 
 This project a web application that allows us to do CRUD operations of the superhero model.
 
