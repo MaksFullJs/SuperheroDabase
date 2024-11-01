@@ -1,0 +1,102 @@
+.edition__page {
+    padding: 50px 0;
+    width: 100vw;
+    border: 3px solid black;
+    background-image: linear-gradient(rgba(85, 161, 248, 0.501), rgba(250, 209, 134, 0.501));
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.edition__form {
+    background-color: white;
+    width: 400px;
+    text-align: center;
+    padding: 50px 60px;
+}
+
+.edition__form h1 {
+    font-weight: bold;
+    font-size: 30px;
+    margin-bottom: 50px;
+    color: black;
+}
+
+
+.input__block {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.input__field {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ddd;
+    padding: 12px;
+    padding-left: 1px;
+    border-radius: 5px;
+    transition: 0.3s ease;
+    background-color: #f9f9f9;
+}
+
+.input__field:focus-within {
+    border-color: #55a1f8;
+    background-color: #fff;
+}
+
+.input__field label {
+    display: block;
+    font-size: 11px;     /* Маленький, але помітний */
+    color: #333;         /* Темний відтінок для контрасту */ /* Відступ між label і input */
+    font-weight: 500;    /* Невеликий акцент на тексті */
+}
+
+.icon {
+    color: #888;
+    margin-right: 10px;
+    font-size: 18px;
+}
+
+input[type="text"],
+textarea {
+    border: none;
+    outline: none;
+    width: 100%;
+    background: none;
+    color: #333;
+    font-size: 16px;
+    font-family: inherit;
+}
+
+textarea {
+    border: 1px solid black;
+    resize: none;
+    min-height: 80px;
+}
+
+input[type="file"] {
+    margin-top: 10px;
+    color: #666;
+    font-size: 14px;
+}
+
+.input__btn {
+    margin-top: 30px;
+    padding: 12px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #55a1f8;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.input__btn:hover {
+    background-color: #4689d6;
+}

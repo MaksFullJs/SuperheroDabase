@@ -1,0 +1,51 @@
+.home__section {
+    padding: 20px 0;
+}
+
+.container {
+    width: 1250px;
+    margin: 0 auto;
+}
+
+.home__create-btn {
+    margin: 0 auto;
+    margin-top: 8px;
+    border-radius: 20px;
+    height: 30px;
+    display: block;
+    text-decoration: none;
+    background: none;
+    cursor: pointer;
+    color: blue;
+    border: 2px solid darkblue;
+    font-weight: bold;
+}
+
+.home__block {
+    display: grid;
+    grid-template-columns: repeat(5, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+.home__block-with-btn {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.home__btn {
+    width: 170px;
+    height: 50px;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: rgb(226, 179, 59);
+    color: white;
+    border-radius: 15px;
+}
+
+.home__btn:hover {
+    transition: 0.6s;
+    color: rgb(194, 139, 0);
+    background-color: white;
+    border: 2px solid rgb(194, 139, 0);
+    box-shadow: 0 0 8px rgb(232, 177, 39);
+}

@@ -1,0 +1,39 @@
+.hero__nickname {
+    color: black;
+    text-align: center;
+}
+
+h3 {
+    margin: 15px 0;
+}
+
+.hero__title-block {
+    padding: 10px 0;
+}
+
+.container {
+    width: 1250px;
+    margin: 0 auto;
+}
+
+.hero__images {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.hero__name {
+    color: black;
+}
+
+.hero__name p {
+    color: black;
+}
+
+.hero__desc {
+    margin-bottom: 0;
+}
+
+.hero__text {
+    margin-top: 5px;
+}
