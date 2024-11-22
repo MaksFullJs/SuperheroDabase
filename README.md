@@ -14,6 +14,8 @@ This project a web application that allows us to do CRUD operations of the super
 ### Backend
 - **Node.js** — JavaScript runtime for server-side development
 - **Express** — web framework for Node.js, handling API routes
+- **Sequelize** — ORM library that helps work easier with database
+- **Multer** — library for uploading and saving files
 - **Mysql** — SQL database for data persistence
 
 
