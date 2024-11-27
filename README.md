@@ -1,6 +1,6 @@
 # 🐾 Superhero Database App
 
-This project a web application that allows us to do CRUD operations of the superhero model.
+This project is a web application that allows us to do CRUD operations of the superhero model.
 
 ## 🛠️ Technologies Used:
 
